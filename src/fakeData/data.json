@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bike",
+        "img": "https://iili.io/RNtTxf.png",
+        "quantity": 4,
+        "tk" : 67
+    },
+    {
+        "name": "Car",
+        "img":  "https://iili.io/RNtGxj.png",
+        "quantity": 5,
+        "tk" : 65
+    },
+    {
+        "name": "Bus",
+        "img": "https://iili.io/RNtlRe.png",
+        "quantity": 4,
+        "tk" : 57
+    },
+    {
+        "name": "Train",
+        "img": "https://iili.io/RNtMWx.png",
+        "quantity": 4,
+        "tk" : 87
+    }
+]

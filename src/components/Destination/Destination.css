@@ -1,0 +1,45 @@
+.pickup-form{
+    border-radius: 5px;
+    background-color:lightgray;
+    height:100%;
+    width: 25%;
+}
+.pickup-form button{
+    width:100%;
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.map{
+    height: 500px;
+    border-radius: 5px;
+    width: 75%;
+}
+.places{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 5px;
+}
+.available-vehicle{
+    background-color: white;
+    border-radius: 5px;
+}
+.available-vehicle img{
+    width: 50px;
+    height: 50px;
+}
+@media(max-width:640px){
+    .styleDestination,.styleSearchVehicle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pickup-form{
+        width: 80%;
+    }
+    .map{
+        margin: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.vehicle{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    /* margin: auto; */
+    background-color: white;
+    width: 250px;
+}
+.vehicle img{
+    height: 120px;
+    width: 180px;
+}
+@media(max-width: 640px){
+    .vehicle{
+        display: flex;
+        flex-direction: column;
+    }
+}

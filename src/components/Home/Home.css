@@ -1,0 +1,20 @@
+body{
+    background-image: url('../../images/background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.vehicles{
+    height: 400px;
+}
+
+@media(max-width:640px){
+    .vehicles{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        height: 1200px;
+    }
+}
